@@ -110,6 +110,11 @@ The use of the term `n-1` is commonly referred to as Bessel's correction. Note, 
 ## Usage
 
 ```javascript
+import sstdev from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray-sstdev@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-base-ndarray-sstdev/tags). For example,
+
+```javascript
 import sstdev from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray-sstdev@v0.1.0-deno/mod.js';
 ```
 
@@ -165,7 +170,7 @@ import Float32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float32@de
 import ndarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-ctor@deno/mod.js';
 import scalar2ndarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-from-scalar@deno/mod.js';
 import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-array@deno/mod.js';
-import sstdev from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray-sstdev@v0.1.0-deno/mod.js';
+import sstdev from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray-sstdev@deno/mod.js';
 
 var opts = {
     'dtype': 'float32'
