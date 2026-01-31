@@ -110,6 +110,11 @@ The use of the term `n-1` is commonly referred to as Bessel's correction. Note, 
 ## Usage
 
 ```javascript
+import sstdev from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray-sstdev@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-base-ndarray-sstdev/tags). For example,
+
+```javascript
 import sstdev from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray-sstdev@v0.1.0-esm/index.mjs';
 ```
 
@@ -170,7 +175,7 @@ import Float32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float32@es
 import ndarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-ctor@esm/index.mjs';
 import scalar2ndarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-from-scalar@esm/index.mjs';
 import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-array@esm/index.mjs';
-import sstdev from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray-sstdev@v0.1.0-esm/index.mjs';
+import sstdev from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray-sstdev@esm/index.mjs';
 
 var opts = {
     'dtype': 'float32'
